@@ -1,6 +1,7 @@
 from core import config
 
-class SmartElement(object):
+
+class FindElement(object):
 
     def __init__(self, locator):
         self.locator = locator
