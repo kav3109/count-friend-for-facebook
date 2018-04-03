@@ -7,8 +7,8 @@ import core.config
 def setup(request):
     core.config.browser = webdriver.Chrome()
     core.config.browser.maximize_window()
-    core.config.browser.set_page_load_timeout(10)
-    core.config.browser.implicitly_wait(10)
+    core.config.browser.set_page_load_timeout(30)
+    core.config.browser.implicitly_wait(20)
 
     def teardown():
         core.config.browser.quit()
