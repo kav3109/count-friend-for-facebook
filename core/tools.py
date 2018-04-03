@@ -18,6 +18,10 @@ def s_cn(locator):
     return FindElementClassName(locator)
 
 
+def s_css(locator):
+    return FindElementCSS(locator)
+
+
 def ss_css(locator):
     return FindElementCSSs(locator)
 
@@ -49,4 +53,8 @@ def counter(param):
     for i in range(len(param)):
         n = n + 1
     # output to consol
-    print("You have " + str(n) + " friends!")
+    expected_result = config.browser.find_element_by_css_selector("span._gs6").text
+    if int(expected_result) == n:
+        print("You have " + expected_result + " friends!")
+    else:
+        print("FUCK!!!!!")
