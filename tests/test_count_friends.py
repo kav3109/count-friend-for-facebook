@@ -1,4 +1,4 @@
-from core.tools import visit, s
+from core.tools import visit, s_id, c_title
 from tests.base_test import *
 
 
@@ -9,5 +9,8 @@ class Test(BaseTest):
 
 
 def login(log, pas):
-    s("email").send_keys(log)
-    s("pass").send_keys(pas)
+    s_id("email").send_keys(log)
+    s_id("pass").send_keys(pas)
+    s_id("loginbutton").click()
+    c_title("Facebook")
+
