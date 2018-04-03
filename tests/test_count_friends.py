@@ -7,8 +7,8 @@ class Test(BaseTest):
     def test(self):
         # open page of Facebook
         visit("http://www.facebook.com")
-        # autorization (Enter your Login and Password)
-        login("+380665932998", "#i6EydD7j")
+        # autorization (Enter instead stars your Login and Password)
+        login("***", "***")
         # cure for push message
         rid_of_push("_1vp5")
         # enter on the page of friends
