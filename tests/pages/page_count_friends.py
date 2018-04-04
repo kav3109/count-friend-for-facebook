@@ -14,4 +14,4 @@ def page_friends():
 
 
 def count_friends():
-    counter(ss_css("li._698"))
+    counter(len(ss_css("li._698")))

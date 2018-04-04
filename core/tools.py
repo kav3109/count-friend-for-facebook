@@ -45,15 +45,13 @@ def scroll_down():
 
 
 def counter(param):
-    n = 0
-    for i in range(len(param)):
-        n = n + 1
-    # output to consol
     expected_result = config.browser.find_element_by_css_selector("span._3d0").text
-    if int(expected_result) == n:
+    if int(expected_result) == param:
         print("You have " + expected_result + " friends!")
     else:
         raise IOError("""
-        Your calculation output - %s
-        Real output - %s
-        """ % (n, expected_result))
+        If you have this message you may create bug for support of Facebook
+        because page was not loaded enough count friends or counter of Facebook is wrong
+        Loaded %s friends
+        Counter of facebook showed %s friends
+        """ % (param, expected_result))
