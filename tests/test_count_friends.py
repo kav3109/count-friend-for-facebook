@@ -8,7 +8,7 @@ class Test(BaseTest):
         # open page of Facebook
         visit("http://www.facebook.com")
         # autorization (Enter instead stars your Login and Password)
-        login("****", "****")
+        login("+380665932998", "#i6EydD7j")
         # enter on the page of friends
         page_friends()
         # load all friends
