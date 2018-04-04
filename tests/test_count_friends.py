@@ -1,4 +1,5 @@
 from core.tools import visit
+from core.config import *
 from tests.base_test import *
 from tests.pages.page_count_friends import *
 
@@ -8,7 +9,7 @@ class Test(BaseTest):
         # open page of Facebook
         visit("http://www.facebook.com")
         # autorization (Enter instead stars your Login and Password)
-        login("****", "****")
+        login(Login, Password)
         # enter on the page of friends
         page_friends()
         # load all friends
