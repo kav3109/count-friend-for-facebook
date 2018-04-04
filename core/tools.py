@@ -49,8 +49,11 @@ def counter(param):
     if int(expected_result) == param:
         print("You have " + expected_result + " friends!")
     else:
+        config.browser.get_screenshot_as_file("down_page.png")
         raise IOError("""
-        If you have this message you may create bug for support of Facebook
+        Make sure your page was scrolled down on image 'down_page.png' in folder 'tests'
+        If it is true
+        you may create bug for support of Facebook
         because page was not loaded enough count friends or counter of Facebook is wrong
         Loaded %s friends
         Counter of facebook showed %s friends
