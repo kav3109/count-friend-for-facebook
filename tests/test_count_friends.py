@@ -8,9 +8,7 @@ class Test(BaseTest):
         # open page of Facebook
         visit("http://www.facebook.com")
         # autorization (Enter instead stars your Login and Password)
-        login("***", "***")
-        # cure for push message
-        rid_of_push("_1vp5")
+        login("****", "****")
         # enter on the page of friends
         page_friends()
         # load all friends

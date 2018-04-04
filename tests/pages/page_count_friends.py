@@ -8,15 +8,10 @@ def login(log, pas):
     c_title("Facebook")
 
 
-def rid_of_push(locator):
-    double_click(locator)
-
-
 def page_friends():
     s_cn("_1vp5").click()
     s_cn("_gs6").click()
 
 
 def count_friends():
-    scroll_down()
     counter(ss_css("li._698"))
