@@ -21,3 +21,5 @@ Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
    `C:\Python35\Scripts\pip.exe install -U pytest`
 * PyCharm community - needs to be installed from [https://www.jetbrains.com/pycharm/download/#section=windows]
 * Git - install from [https://git-scm.com/downloads]
+
+**to be continuous...**
