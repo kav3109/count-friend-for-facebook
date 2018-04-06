@@ -30,6 +30,7 @@ Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
 * Before launching test you must set parameters of Login and Password of your user in config of project
   
   `\count-friends-for-facebook\core\config.py`  
+  ![imd](https://user-images.githubusercontent.com/36225921/38411065-e6cf9da4-398e-11e8-97d7-2167c8acb97d.PNG)
 * Launch file:
 
   `\count-friends-for-facebook\tests\test_count_friends.py`
