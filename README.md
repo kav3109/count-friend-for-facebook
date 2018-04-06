@@ -1,5 +1,5 @@
 # count-friends-for-facebook
-Project for counting your friends on your page of Facebook 
+### Project for counting your friends on your page of Facebook 
 -------------
 ## Description of project
 
@@ -28,7 +28,8 @@ Make sure it’s in your PATH, e. g., place it in /usr/bin or /usr/local/bin.
 
 ## Starting of the test
 * Before launching test you must set parameters of Login and Password of your user in config of project
-  `\count-friends-for-facebook\core\config.py`
   
+  `\count-friends-for-facebook\core\config.py`  
 * Launch file:
+
   `\count-friends-for-facebook\tests\test_count_friends.py`
